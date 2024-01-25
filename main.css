@@ -102,40 +102,27 @@ nav ul li:hover::after
     margin-bottom: 40%;
     text-align: center;
 }
-
-
-
-
-
-.footer
+.info section
 {
-    background-color: black;
+    justify-content: space-between;
+    display: flex;
     text-align: center;
-    margin-bottom: 0px;
-    padding: 20px;
-    font-size: 25px;
-    color: white;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    overflow-x: hidden;
-}
-.footer-link
-{
-    color: white;
+    margin-top: 20px;
     
 }
-.abt,.cont,.hel
+.d1, .d2, .d3
 {
-    background-color: transparent;
-    font-size: 30px;
-    color: white;
-    border: 0px;
-    cursor: pointer;
-}
-.abt:hover,.cont:hover,.hel:hover
-{
-    background-color: white;
-    color: black;
+    border: 1px solid black;
+    padding: 40px;
     border-radius: 12px;
+    background-color: rgb(250, 239, 220);
+    margin: 0px;
+    flex: 1;
+    height: 150px;
+    width: 120px;
+    margin: 10px; 
+}
+.d1:hover, .d2:hover, .d3:hover
+{
+   box-shadow: 7px 7px 7px 0.2px grey;
 }
